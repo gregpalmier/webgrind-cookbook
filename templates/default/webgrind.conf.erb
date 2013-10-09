@@ -1,0 +1,5 @@
+Alias /webgrind <%= node[:apache][:docroot_dir] %>/webgrind
+<Directory <%= node[:apache][:docroot_dir] %>/webgrind>
+    Order deny,allow
+    Allow from all
+</Directory>
