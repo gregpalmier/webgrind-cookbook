@@ -89,7 +89,6 @@ Vagrant.configure("2") do |config|
     chef.json = {
     }
     chef.add_recipe "phpsysinfo::default"
-    chef.add_recipe "webgrind-cookbook::default"
     chef.add_recipe "webgrind-cookbook::webgrind"
   end
 end

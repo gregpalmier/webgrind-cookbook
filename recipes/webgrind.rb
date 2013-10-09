@@ -8,6 +8,7 @@
 #
 
 include_recipe 'git'
+include_recipe 'webgrind-cookbook::default'
 
 # Install Webgrind
 # https://github.com/jokkedk/webgrind.git

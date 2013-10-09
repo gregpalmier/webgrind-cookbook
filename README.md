@@ -30,7 +30,6 @@ In your project Vagrantfile add:
 
 ````
 chef.run_list = [
-  "recipe[webgrind::default]"
   "recipe[webgrind::webgrind]"
 ]
 ````
@@ -38,7 +37,6 @@ chef.run_list = [
 OR
 
 ````
-chef.add_recipe "webgrind::default"
 chef.add_recipe "webgrind::webgrind"
 ````
 

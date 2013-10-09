@@ -25,7 +25,7 @@ case node[:platform]
   end
 end
 
-cookbook_file "#{node[:php][:apache_conf_dir]}/zz_xdebug.conf" do
+cookbook_file "#{node[:php][:apache_conf_dir]}/xdebug.conf" do
   source "xdebug.conf"
   mode "0644"
   owner "root"
